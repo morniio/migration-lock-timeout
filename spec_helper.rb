@@ -1,4 +1,5 @@
 require 'database_cleaner'
+require 'byebug'
 
 RSpec.configure do |config|
   config.before(:suite) do
